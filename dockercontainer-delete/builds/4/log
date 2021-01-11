@@ -1,0 +1,37 @@
+Started by upstream project "[8mha:////4OUQIrnaLSuNwXLM9/+JFKO7MWu4fgXTr7afsojjIwxeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3iVKDJmaW5+gD/e8qtwwAAAA==[0mselenium" build number [8mha:////4OiDZr7eqGM86x24swms744EA6ax5CNO48ZUi5SBI9mMAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3iVKDJmaW5+kZmAM7qgDbFAAAA[0m26
+originally caused by:
+ Started by user [8mha:////4Gm8z8svCaXKqFzr1Z5zntsQFmxEgC1XfjqScehTkFs8AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mnazar
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/dockercontainer-delete
+[dockercontainer-delete] $ /bin/sh -xe /tmp/jenkins7964236432329640704.sh
+++ sudo cat /home/user1/dockerbuild.txt
++ containername=project-83
++ sudo touch /etc/ansible/playbook-docker-del.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-del.yml
++ sudo tee /etc/ansible/playbook-docker-del.yml
++ sudo sed -i s/containername/project-83/g /etc/ansible/playbook-docker-del.yml
++ echo container project-83 'is deleted'
+container project-83 is deleted
+[dockercontainer-delete] $ ansible-playbook /etc/ansible/playbook-docker-del.yml -f 5
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [stop container] **********************************************************
+[WARNING]: Consider using 'become', 'become_method', and 'become_user' rather
+than running sudo
+changed: [172.31.32.48]
+
+TASK [delete container] ********************************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

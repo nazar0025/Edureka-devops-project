@@ -1,0 +1,120 @@
+Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4C5FI72i+znZV7Yt+yi/hWJxI9dwMwH6YEVfxcgN2PHIAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBin9rPwk/cS84syknFTd4tSS0gLd4pzEslR9QwBy/pJAzwAAAA==[0m1
+originally caused by:
+ Started by user [8mha:////4Gm8z8svCaXKqFzr1Z5zntsQFmxEgC1XfjqScehTkFs8AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mnazar
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/ansible-docker
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins441464033251222263.sh
++ echo 172.31.38.161 ip-172-31-38-161.us-east-2.compute.internal 172.31.32.48 ip-172-31-32-48.us-east-2.compute.internal
+172.31.38.161 ip-172-31-38-161.us-east-2.compute.internal 172.31.32.48 ip-172-31-32-48.us-east-2.compute.internal
++ sudo chmod 666 /etc/ansible/hosts
++ sudo sed -i '/ansibleslave\]/d' /etc/ansible/hosts
++ sudo sed -i /172.31.32.48/d /etc/ansible/hosts
++ sudo echo '[ansibleslave]'
++ sudo echo 172.31.32.48
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins922524485418881485.sh
++ sudo touch /etc/ansible/playbook-docker-uninstall.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-uninstall.yml
++ sudo tee /etc/ansible/playbook-docker-uninstall.yml
+[ansible-docker] $ sshpass ******** ansible-playbook /etc/ansible/playbook-docker-uninstall.yml -f 5 -u user1 -k
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [Stop docker] *************************************************************
+changed: [172.31.32.48]
+
+TASK [Uninstall docker] ********************************************************
+changed: [172.31.32.48]
+
+TASK [Install docker] **********************************************************
+changed: [172.31.32.48]
+
+TASK [Start docker] ************************************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins3202397866602261574.sh
++ build_number=58
++ sudo touch /etc/ansible/playbook-docker.yml
++ sudo chmod 755 /etc/ansible/playbook-docker.yml
++ sudo tee /etc/ansible/playbook-docker.yml
++ sudo sed -i s/buildnumber/58/g /etc/ansible/playbook-docker.yml
+[ansible-docker] $ sshpass ******** ansible-playbook /etc/ansible/playbook-docker.yml -f 5 -u user1 -k
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [Creates directory] *******************************************************
+changed: [172.31.32.48]
+
+TASK [setting up gitrepo] ******************************************************
+changed: [172.31.32.48]
+
+TASK [Get the project from github] *********************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins487482529086174316.sh
++ build_number=58
++ sudo touch /etc/ansible/playbook-docker-deploy.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-deploy.yml
++ sudo tee /etc/ansible/playbook-docker-deploy.yml
++ sudo sed -i s/buildnumber/58/g /etc/ansible/playbook-docker-deploy.yml
+[ansible-docker] $ sshpass ******** ansible-playbook /etc/ansible/playbook-docker-deploy.yml -f 5 -u user1 -k
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [create dockerfile] *******************************************************
+changed: [172.31.32.48]
+
+TASK [add content to dockerfile] ***********************************************
+ok: [172.31.32.48]
+
+TASK [build container] *********************************************************
+changed: [172.31.32.48]
+
+TASK [run the container] *******************************************************
+changed: [172.31.32.48]
+
+TASK [start the container] *****************************************************
+changed: [172.31.32.48]
+
+TASK [run the container] *******************************************************
+changed: [172.31.32.48]
+
+TASK [projectname] *************************************************************
+changed: [172.31.32.48]
+
+TASK [show running port] *******************************************************
+changed: [172.31.32.48]
+
+TASK [Print container port] ****************************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=10   changed=8    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

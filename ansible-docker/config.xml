@@ -1,0 +1,186 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <assignedNode>VM2-slave</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <jenkins.triggers.ReverseBuildTrigger>
+      <spec></spec>
+      <upstreamProjects>ansible-setup-slave</upstreamProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </jenkins.triggers.ReverseBuildTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>build_number=${BUILD_NUMBER}
+
+#creating playbook
+sudo touch /etc/ansible/playbook-docker.yml
+sudo chmod 755 /etc/ansible/playbook-docker.yml
+sudo tee /etc/ansible/playbook-docker.yml  &gt; /dev/null &lt;&lt;&apos;EOF&apos;
+---
+- hosts: ansibleslave
+  become: true
+  become_user: root
+  tasks:
+  - name: Creates directory
+    file:
+      path: /home/user1/project_buildnumber
+      state: directory
+  - name: setting up gitrepo
+    shell: chdir=/home/user1/project_buildnumber git init
+  - name: Get the project from github
+    shell: chdir=/home/user1/project_buildnumber git pull https://github.com/edureka-devops/projCert.git master
+EOF
+
+sudo sed -i &quot;s/buildnumber/$build_number/g&quot; /etc/ansible/playbook-docker.yml
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+    <org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder plugin="ansible@1.1">
+      <playbook>/etc/ansible/playbook-docker.yml</playbook>
+      <limit></limit>
+      <tags></tags>
+      <skippedTags></skippedTags>
+      <startAtTask></startAtTask>
+      <credentialsId>931b185c-0b8c-4a92-bc31-885967f63ccb</credentialsId>
+      <vaultCredentialsId></vaultCredentialsId>
+      <become>false</become>
+      <becomeUser></becomeUser>
+      <sudo>false</sudo>
+      <sudoUser></sudoUser>
+      <forks>5</forks>
+      <unbufferedOutput>true</unbufferedOutput>
+      <colorizedOutput>false</colorizedOutput>
+      <disableHostKeyChecking>false</disableHostKeyChecking>
+      <additionalParameters></additionalParameters>
+      <copyCredentialsInWorkspace>false</copyCredentialsInWorkspace>
+    </org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder>
+    <hudson.tasks.Shell>
+      <command>build_number=${BUILD_NUMBER}
+
+#creating playbook
+sudo touch /etc/ansible/playbook-docker-deploy.yml
+sudo chmod 755 /etc/ansible/playbook-docker-deploy.yml
+sudo tee /etc/ansible/playbook-docker-deploy.yml  &gt; /dev/null &lt;&lt;&apos;EOF&apos;
+---
+- hosts: ansibleslave
+  become: true
+  become_user: root
+  tasks:
+    - name: create dockerfile
+      file: path=/home/user1/Dockerfile state=touch
+    - name: add content to dockerfile
+      blockinfile:
+              dest: /home/user1/Dockerfile
+              content: &quot;FROM devopsedu/webapp\n
+                        MAINTAINER nazar0025\n
+                        ENTRYPOINT service apache2 restart &amp;&amp; bash&quot;
+                        #ADD /home/user1/project_buildnumber/ /var/www/html/
+                        #CMD systemctl apache2 restart\n
+                        #EXPOSE 80
+    - name: build container
+      shell: chdir=/home/user1/ docker build -t project:buildnumber .
+    - name: run the container
+      shell: docker run --name project-buildnumber -itd -p 9999:80 project:buildnumber
+    - name: start the container
+      shell: docker start project-buildnumber
+    - name: run the container
+      shell: container_id=$(sudo docker ps -a|grep project-buildnumber|awk {&apos;print $1&apos;})
+EOF
+
+sudo sed -i &quot;s/buildnumber/$build_number/g&quot; /etc/ansible/playbook-docker-deploy.yml
+#sudo sed -i &quot;s/projectname/$project_name/g&quot; /etc/ansible/playbook-docker-deploy.yml
+sudo echo project-$build_number &gt; /home/user1/dockerbuild.txt
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+    <org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder plugin="ansible@1.1">
+      <playbook>/etc/ansible/playbook-docker-deploy.yml</playbook>
+      <limit></limit>
+      <tags></tags>
+      <skippedTags></skippedTags>
+      <startAtTask></startAtTask>
+      <credentialsId>931b185c-0b8c-4a92-bc31-885967f63ccb</credentialsId>
+      <vaultCredentialsId></vaultCredentialsId>
+      <become>false</become>
+      <becomeUser></becomeUser>
+      <sudo>false</sudo>
+      <sudoUser></sudoUser>
+      <forks>5</forks>
+      <unbufferedOutput>true</unbufferedOutput>
+      <colorizedOutput>false</colorizedOutput>
+      <disableHostKeyChecking>false</disableHostKeyChecking>
+      <additionalParameters></additionalParameters>
+      <copyCredentialsInWorkspace>false</copyCredentialsInWorkspace>
+    </org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder>
+    <hudson.tasks.Shell>
+      <command>build_number=${BUILD_NUMBER}
+
+#creating playbook
+sudo touch /etc/ansible/playbook-docker-project.yml
+sudo chmod 755 /etc/ansible/playbook-docker-project.yml
+sudo tee /etc/ansible/playbook-docker-project.yml  &gt; /dev/null &lt;&lt;&apos;EOF&apos;
+---
+- hosts: ansibleslave
+  become: true
+  become_user: root
+  tasks:
+    - name: run the container
+      shell: |
+           container_id=$(docker ps -a|grep project-buildnumber|awk {&apos;print $1&apos;})
+           project_name=$(ls /home/user1/project_buildnumber/)
+           docker cp /home/user1/project_buildnumber/* $container_id:/var/www/html/
+           container_port=$(sudo docker ps -a|grep project-buildnumber|awk {&apos;print $10&apos;}|awk -F&apos;[:*]&apos; &apos;NF == 2{print $2}&apos;|cut -d - -f 1)
+           echo -e $container_port $project_name
+EOF
+
+sudo sed -i &quot;s/buildnumber/$build_number/g&quot; /etc/ansible/playbook-docker-project.yml</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+    <org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder plugin="ansible@1.1">
+      <playbook>/etc/ansible/playbook-docker-project.yml</playbook>
+      <limit></limit>
+      <tags></tags>
+      <skippedTags></skippedTags>
+      <startAtTask></startAtTask>
+      <credentialsId></credentialsId>
+      <vaultCredentialsId></vaultCredentialsId>
+      <become>false</become>
+      <becomeUser></becomeUser>
+      <sudo>false</sudo>
+      <sudoUser></sudoUser>
+      <forks>5</forks>
+      <unbufferedOutput>true</unbufferedOutput>
+      <colorizedOutput>false</colorizedOutput>
+      <disableHostKeyChecking>false</disableHostKeyChecking>
+      <additionalParameters></additionalParameters>
+      <copyCredentialsInWorkspace>false</copyCredentialsInWorkspace>
+    </org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder>
+  </builders>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>selenium</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
+  <buildWrappers/>
+</project>

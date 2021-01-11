@@ -1,0 +1,26 @@
+Started by user [8mha:////4Gm8z8svCaXKqFzr1Z5zntsQFmxEgC1XfjqScehTkFs8AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mnazar
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/ansible-docker
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins1045079986209346543.sh
++ echo 172.31.38.161 ip-172-31-38-161.us-east-2.compute.internal 172.31.32.48 ip-172-31-32-48.us-east-2.compute.internal
+172.31.38.161 ip-172-31-38-161.us-east-2.compute.internal 172.31.32.48 ip-172-31-32-48.us-east-2.compute.internal
++ sudo chmod 666 /etc/ansible/hosts
++ sudo sed -i '/ansibleslave\]/d' /etc/ansible/hosts
++ sudo sed -i /172.31.32.48/d /etc/ansible/hosts
++ sudo echo '[ansibleslave]'
++ sudo echo 172.31.32.48
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins6792540520508433416.sh
++ sudo touch /etc/ansible/playbook-docker-uninstall.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-uninstall.yml
++ sudo tee /etc/ansible/playbook-docker-uninstall.yml
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins2189584203651696758.sh
++ sudo touch /etc/ansible/playbook-docker.yml
++ sudo chmod 755 /etc/ansible/playbook-docker.yml
++ sudo tee /etc/ansible/playbook-docker.yml
++ echo 40
+40
++ echo 40
+40
+/tmp/jenkins2189584203651696758.sh: line 31: ${env.BUILD_NUMBER}: bad substitution
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

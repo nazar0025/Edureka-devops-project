@@ -1,0 +1,25 @@
+Started by GitHub push by nazar0025
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/selenium
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/nazar0025/Selenium-project.git
+ > git init /var/lib/jenkins/workspace/selenium # timeout=10
+Fetching upstream changes from https://github.com/nazar0025/Selenium-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.3'
+ > git fetch --tags --force --progress -- https://github.com/nazar0025/Selenium-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/nazar0025/Selenium-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 42c2297ed1beb1ff32d43628afe5aa5cdc4751ef (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 42c2297ed1beb1ff32d43628afe5aa5cdc4751ef # timeout=10
+Commit message: "Create testk.txt"
+First time build. Skipping changelog.
+[selenium] $ /bin/sh -xe /tmp/jenkins7596635485711529864.sh
++ echo 'from git k'
+from git k
+Finished: SUCCESS

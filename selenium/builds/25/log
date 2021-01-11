@@ -1,0 +1,76 @@
+Started by upstream project "[8mha:////4DE9MmZmPAy6oWzIkqaHkysvprp+KoaNkPYpr9pD3dFcAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3EvOLMpJxU3ZT85OzUIn0AYG+rAMkAAAA=[0mansible-docker" build number [8mha:////4LZUd3QDAgCCShk5HxJOA77IqOLKW0IG5/dW5C4MYmYhAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP3EvOLMpJxU3ZT85OzUIn0LYwBcsE3DywAAAA==[0m83
+originally caused by:
+ Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4F+tFwt+P9MYxOdbZwUn73WLxhnR7KYMx6eaEmXAIhjtAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfUNLAAUh0SHQAAAA[0m19
+ originally caused by:
+  Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4Mb5WeGUfEODdz9BimjDsvOMRCNCHYBXP32m/s3SOpwpAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9Q3MAJcd0C8kAAAA=[0m17
+  originally caused by:
+   Started by GitHub push by nazar0025
+  Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4Mb5WeGUfEODdz9BimjDsvOMRCNCHYBXP32m/s3SOpwpAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9Q3MAJcd0C8kAAAA=[0m17
+ Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4F+tFwt+P9MYxOdbZwUn73WLxhnR7KYMx6eaEmXAIhjtAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfUNLAAUh0SHQAAAA[0m19
+Started by upstream project "[8mha:////4DE9MmZmPAy6oWzIkqaHkysvprp+KoaNkPYpr9pD3dFcAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3EvOLMpJxU3ZT85OzUIn0AYG+rAMkAAAA=[0mansible-docker" build number [8mha:////4LZUd3QDAgCCShk5HxJOA77IqOLKW0IG5/dW5C4MYmYhAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP3EvOLMpJxU3ZT85OzUIn0LYwBcsE3DywAAAA==[0m83
+originally caused by:
+ Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4F+tFwt+P9MYxOdbZwUn73WLxhnR7KYMx6eaEmXAIhjtAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfUNLAAUh0SHQAAAA[0m19
+ originally caused by:
+  Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4Mb5WeGUfEODdz9BimjDsvOMRCNCHYBXP32m/s3SOpwpAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9Q3MAJcd0C8kAAAA=[0m17
+  originally caused by:
+   Started by GitHub push by nazar0025
+  Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4Mb5WeGUfEODdz9BimjDsvOMRCNCHYBXP32m/s3SOpwpAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9Q3MAJcd0C8kAAAA=[0m17
+ Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4F+tFwt+P9MYxOdbZwUn73WLxhnR7KYMx6eaEmXAIhjtAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfUNLAAUh0SHQAAAA[0m19
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/selenium
+[selenium] $ /bin/sh -xe /tmp/jenkins2160599997219036967.sh
++ build_number=25
++ sudo touch /etc/ansible/playbook-selenium.yml
++ sudo chmod 755 /etc/ansible/playbook-selenium.yml
++ sudo tee /etc/ansible/playbook-selenium.yml
++ sudo sed -i s/buildnumber/25/g /etc/ansible/playbook-selenium.yml
+[selenium] $ ansible-playbook /etc/ansible/playbook-selenium.yml -f 5
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [Creates directory] *******************************************************
+changed: [172.31.32.48]
+
+TASK [setting up gitrepo] ******************************************************
+changed: [172.31.32.48]
+
+TASK [Get the project from github] *********************************************
+changed: [172.31.32.48]
+
+TASK [create script] ***********************************************************
+changed: [172.31.32.48]
+
+TASK [add content to dockerfile] ***********************************************
+ok: [172.31.32.48]
+
+TASK [execute shell file] ******************************************************
+fatal: [172.31.32.48]: FAILED! => {"changed": true, "cmd": "/home/user1/selenium-script.sh", "delta": "0:00:00.436009", "end": "2021-01-10 17:38:23.913156", "msg": "non-zero return code", "rc": 1, "start": "2021-01-10 17:38:23.477147", "stderr": "Error: Could not find or load main class org.testng.TestNG", "stderr_lines": ["Error: Could not find or load main class org.testng.TestNG"], "stdout": "", "stdout_lines": []}
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=6    changed=4    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+FATAL: command execution failed
+hudson.AbortException: Ansible playbook execution failed
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:262)
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:232)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.Build$BuildExecution.build(Build.java:197)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:514)
+	at hudson.model.Run.execute(Run.java:1907)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ERROR: Ansible playbook execution failed
+[parameterized-trigger] Downstream builds will not be triggered as no parameter is set.
+Finished: FAILURE

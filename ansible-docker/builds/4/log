@@ -1,0 +1,36 @@
+Started by user [8mha:////4Gm8z8svCaXKqFzr1Z5zntsQFmxEgC1XfjqScehTkFs8AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mnazar
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/ansible-docker
+[ansible-docker] $ sshpass ******** ansible-playbook /etc/ansible/playbook-docker.yml -f 5 -u user1 -k
+
+PLAY [webservers] **************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [Install docker] **********************************************************
+ok: [172.31.32.48]
+
+TASK [Start docker] ************************************************************
+ok: [172.31.32.48]
+
+TASK [Install git] *************************************************************
+changed: [172.31.32.48]
+
+TASK [Get the dockerfile from github] ******************************************
+changed: [172.31.32.48]
+
+TASK [Build the dockerfile] ****************************************************
+changed: [172.31.32.48]
+
+TASK [Run the docker image] ****************************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=7    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

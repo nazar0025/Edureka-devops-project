@@ -1,0 +1,16 @@
+Started by user [8mha:////4Gm8z8svCaXKqFzr1Z5zntsQFmxEgC1XfjqScehTkFs8AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mnazar
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/selenium
+[selenium] $ /bin/sh -xe /tmp/jenkins8657516855322049024.sh
++ sudo mkdir /home/user1/5
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

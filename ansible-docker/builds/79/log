@@ -1,0 +1,108 @@
+Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4Pt6QlD4ZzNEm6X/OGPhtiTJJwrPQEFztG6UPeJsX9BFAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfUNTAC5tZyjQAAAA[0m15
+originally caused by:
+ Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4Ix6TFg3ruS1JsiMS0u/twrRnWgm2bj8cen8b5ZfzcPKAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9Q2MAPAMZDMkAAAA=[0m13
+ originally caused by:
+  Started by GitHub push by nazar0025
+ Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4Ix6TFg3ruS1JsiMS0u/twrRnWgm2bj8cen8b5ZfzcPKAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9Q2MAPAMZDMkAAAA=[0m13
+Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4Pt6QlD4ZzNEm6X/OGPhtiTJJwrPQEFztG6UPeJsX9BFAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfUNTAC5tZyjQAAAA[0m15
+originally caused by:
+ Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4Ix6TFg3ruS1JsiMS0u/twrRnWgm2bj8cen8b5ZfzcPKAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9Q2MAPAMZDMkAAAA=[0m13
+ originally caused by:
+  Started by GitHub push by nazar0025
+ Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4Ix6TFg3ruS1JsiMS0u/twrRnWgm2bj8cen8b5ZfzcPKAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9Q2MAPAMZDMkAAAA=[0m13
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/ansible-docker
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins754684979050706523.sh
++ build_number=79
++ sudo touch /etc/ansible/playbook-docker.yml
++ sudo chmod 755 /etc/ansible/playbook-docker.yml
++ sudo tee /etc/ansible/playbook-docker.yml
++ sudo sed -i s/buildnumber/79/g /etc/ansible/playbook-docker.yml
+[ansible-docker] $ sshpass ******** ansible-playbook /etc/ansible/playbook-docker.yml -f 5 -u user1 -k
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [Creates directory] *******************************************************
+changed: [172.31.32.48]
+
+TASK [setting up gitrepo] ******************************************************
+changed: [172.31.32.48]
+
+TASK [Get the project from github] *********************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins4195426585449495239.sh
++ build_number=79
++ sudo touch /etc/ansible/playbook-docker-deploy.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-deploy.yml
++ sudo tee /etc/ansible/playbook-docker-deploy.yml
++ sudo sed -i s/buildnumber/79/g /etc/ansible/playbook-docker-deploy.yml
++ sudo echo project-79
+[ansible-docker] $ sshpass ******** ansible-playbook /etc/ansible/playbook-docker-deploy.yml -f 5 -u user1 -k
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [create dockerfile] *******************************************************
+changed: [172.31.32.48]
+
+TASK [add content to dockerfile] ***********************************************
+ok: [172.31.32.48]
+
+TASK [build container] *********************************************************
+changed: [172.31.32.48]
+
+TASK [run the container] *******************************************************
+changed: [172.31.32.48]
+
+TASK [start the container] *****************************************************
+changed: [172.31.32.48]
+
+TASK [run the container] *******************************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=7    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins5243602862578404551.sh
++ build_number=79
++ sudo touch /etc/ansible/playbook-docker-project.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-project.yml
++ sudo tee /etc/ansible/playbook-docker-project.yml
++ sudo sed -i s/buildnumber/79/g /etc/ansible/playbook-docker-project.yml
+[ansible-docker] $ ansible-playbook /etc/ansible/playbook-docker-project.yml -f 5
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [run the container] *******************************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Triggering a new build of [8mha:////4OUQIrnaLSuNwXLM9/+JFKO7MWu4fgXTr7afsojjIwxeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3iVKDJmaW5+gD/e8qtwwAAAA==[0mselenium
+Triggering a new build of [8mha:////4OUQIrnaLSuNwXLM9/+JFKO7MWu4fgXTr7afsojjIwxeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3iVKDJmaW5+gD/e8qtwwAAAA==[0mselenium
+Finished: SUCCESS

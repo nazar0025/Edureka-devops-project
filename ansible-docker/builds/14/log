@@ -1,0 +1,16 @@
+Started by user [8mha:////4Gm8z8svCaXKqFzr1Z5zntsQFmxEgC1XfjqScehTkFs8AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mnazar
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/ansible-docker
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins2819338651319801328.sh
++ echo 172.31.38.161 ip-172-31-38-161.us-east-2.compute.internal 172.31.0.240 ip-172-31-0-240.us-east-2.compute.internal
+172.31.38.161 ip-172-31-38-161.us-east-2.compute.internal 172.31.0.240 ip-172-31-0-240.us-east-2.compute.internal
++ sudo chmod 666 /etc/ansible/hosts
++ sudo sed -i '/ansibleslave\]/d' /etc/ansible/hosts
++ sudo sed -i /172.31.0.240/d /etc/ansible/hosts
++ sudo echo '[ansibleslave]'
++ sudo echo 172.31.0.240
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins1199051441551356860.sh
++ sudo rm /etc/ansible/playbook-docker-uninstall.yml
+rm: cannot remove ‘/etc/ansible/playbook-docker-uninstall.yml’: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

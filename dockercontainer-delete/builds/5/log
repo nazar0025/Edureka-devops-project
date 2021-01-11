@@ -1,0 +1,46 @@
+Started by upstream project "[8mha:////4OUQIrnaLSuNwXLM9/+JFKO7MWu4fgXTr7afsojjIwxeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3iVKDJmaW5+gD/e8qtwwAAAA==[0mselenium" build number [8mha:////4Hth62GaNl8Xn4A+p9CdnlRvdS1fPr2nRTZXDvQXTvXUAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3iVKDJmaW5+kbmAFjah0HFAAAA[0m27
+originally caused by:
+ Started by upstream project "[8mha:////4DE9MmZmPAy6oWzIkqaHkysvprp+KoaNkPYpr9pD3dFcAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3EvOLMpJxU3ZT85OzUIn0AYG+rAMkAAAA=[0mansible-docker" build number [8mha:////4CxIyhwgdjCNaYrwIrqkm/sfeE79zt4UxB2/bQERKbZKAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP3EvOLMpJxU3ZT85OzUIn0LEwD/JSldywAAAA==[0m84
+ originally caused by:
+  Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4Ct7c8Ab3St7JRJBqgImz/CMW8xxanXgZD3u2/0ppOYUAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfSMDAGLKIHPQAAAA[0m20
+  originally caused by:
+   Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4PksxoL7GjwqYQuE+JkucPSoOU7H7uBQMMHLCN4rQtg3AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9QwsAtNrLm8kAAAA=[0m18
+   originally caused by:
+    Started by GitHub push by nazar0025
+   Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4PksxoL7GjwqYQuE+JkucPSoOU7H7uBQMMHLCN4rQtg3AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9QwsAtNrLm8kAAAA=[0m18
+  Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4Ct7c8Ab3St7JRJBqgImz/CMW8xxanXgZD3u2/0ppOYUAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfSMDAGLKIHPQAAAA[0m20
+ Started by upstream project "[8mha:////4DE9MmZmPAy6oWzIkqaHkysvprp+KoaNkPYpr9pD3dFcAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3EvOLMpJxU3ZT85OzUIn0AYG+rAMkAAAA=[0mansible-docker" build number [8mha:////4CxIyhwgdjCNaYrwIrqkm/sfeE79zt4UxB2/bQERKbZKAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP3EvOLMpJxU3ZT85OzUIn0LEwD/JSldywAAAA==[0m84
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/dockercontainer-delete
+[dockercontainer-delete] $ /bin/sh -xe /tmp/jenkins9193790854816211804.sh
+++ sudo cat /home/user1/dockerbuild.txt
++ containername=project-84
++ sudo touch /etc/ansible/playbook-docker-del.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-del.yml
++ sudo tee /etc/ansible/playbook-docker-del.yml
++ sudo sed -i s/containername/project-84/g /etc/ansible/playbook-docker-del.yml
++ echo container project-84 'is deleted'
+container project-84 is deleted
+[dockercontainer-delete] $ sshpass ******** ansible-playbook /etc/ansible/playbook-docker-del.yml -f 5 -u user1 -k
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [stop container] **********************************************************
+[WARNING]: Consider using 'become', 'become_method', and 'become_user' rather
+than running sudo
+changed: [172.31.32.48]
+
+TASK [delete container] ********************************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

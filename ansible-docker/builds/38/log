@@ -1,0 +1,109 @@
+Started by user [8mha:////4Gm8z8svCaXKqFzr1Z5zntsQFmxEgC1XfjqScehTkFs8AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mnazar
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/ansible-docker
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins122532332164325585.sh
++ echo 172.31.38.161 ip-172-31-38-161.us-east-2.compute.internal 172.31.32.48 ip-172-31-32-48.us-east-2.compute.internal
+172.31.38.161 ip-172-31-38-161.us-east-2.compute.internal 172.31.32.48 ip-172-31-32-48.us-east-2.compute.internal
++ sudo chmod 666 /etc/ansible/hosts
++ sudo sed -i '/ansibleslave\]/d' /etc/ansible/hosts
++ sudo sed -i /172.31.32.48/d /etc/ansible/hosts
++ sudo echo '[ansibleslave]'
++ sudo echo 172.31.32.48
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins6228941025846456213.sh
++ sudo touch /etc/ansible/playbook-docker-uninstall.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-uninstall.yml
++ sudo tee /etc/ansible/playbook-docker-uninstall.yml
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins1773396199286305319.sh
++ sudo touch /etc/ansible/playbook-docker.yml
++ sudo chmod 755 /etc/ansible/playbook-docker.yml
++ sudo tee /etc/ansible/playbook-docker.yml
+[ansible-docker] $ /bin/sh -xe /tmp/jenkins4217156188955001777.sh
++ sudo touch /etc/ansible/playbook-docker-deploy.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-deploy.yml
++ sudo tee /etc/ansible/playbook-docker-deploy.yml
+[ansible-docker] $ sshpass ******** ansible-playbook /etc/ansible/playbook-docker-uninstall.yml -f 5 -u user1 -k
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [Stop docker] *************************************************************
+changed: [172.31.32.48]
+
+TASK [Uninstall docker] ********************************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[ansible-docker] $ sshpass ******** ansible-playbook /etc/ansible/playbook-docker.yml -f 5 -u user1 -k
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [Install docker] **********************************************************
+changed: [172.31.32.48]
+
+TASK [Start docker] ************************************************************
+changed: [172.31.32.48]
+
+TASK [Remove directory] ********************************************************
+changed: [172.31.32.48]
+
+TASK [Creates directory] *******************************************************
+changed: [172.31.32.48]
+
+TASK [setting up gitrepo] ******************************************************
+changed: [172.31.32.48]
+
+TASK [Get the project from github] *********************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=7    changed=6    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+[ansible-docker] $ sshpass ******** ansible-playbook /etc/ansible/playbook-docker-deploy.yml -f 5 -u user1 -k
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [run the container] *******************************************************
+fatal: [172.31.32.48]: FAILED! => {"changed": true, "cmd": "docker run --name project1 -itd devopsedu/webapp", "delta": "0:00:00.086388", "end": "2021-01-07 16:03:57.636834", "msg": "non-zero return code", "rc": 125, "start": "2021-01-07 16:03:57.550446", "stderr": "docker: Error response from daemon: Conflict. The container name \"/project1\" is already in use by container \"5bf776dac935c465818cc30f5336081491a6a549552a1205554660612a849602\". You have to remove (or rename) that container to be able to reuse that name.\nSee 'docker run --help'.", "stderr_lines": ["docker: Error response from daemon: Conflict. The container name \"/project1\" is already in use by container \"5bf776dac935c465818cc30f5336081491a6a549552a1205554660612a849602\". You have to remove (or rename) that container to be able to reuse that name.", "See 'docker run --help'."], "stdout": "", "stdout_lines": []}
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+FATAL: command execution failed
+hudson.AbortException: Ansible playbook execution failed
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:262)
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:232)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.Build$BuildExecution.build(Build.java:197)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:514)
+	at hudson.model.Run.execute(Run.java:1907)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ERROR: Ansible playbook execution failed
+Finished: FAILURE

@@ -1,0 +1,12 @@
+Started on Jan 9, 2021 6:35:54 AM
+Started by event from 140.82.115.146 ⇒ http://3.132.117.28:8080/github-webhook/ on Sat Jan 09 06:35:52 UTC 2021
+Using strategy: Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.3'
+ > git ls-remote -h -- https://github.com/nazar0025/Selenium-project.git # timeout=10
+Found 1 remote heads on https://github.com/nazar0025/Selenium-project.git
+[poll] Latest remote head revision on refs/heads/master is: 42c2297ed1beb1ff32d43628afe5aa5cdc4751ef
+Done. Took 2 sec
+Changes found

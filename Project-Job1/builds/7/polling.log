@@ -1,0 +1,13 @@
+Started on Jan 8, 2021 2:05:14 PM
+Started by event from 140.82.115.150 ⇒ http://3.132.117.28:8080/github-webhook/ on Fri Jan 08 14:05:14 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 9835fe164061f3a43df92c824618f4ab7ac967e6 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.3'
+ > git ls-remote -h -- https://github.com/nazar0025/projCert.git # timeout=10
+Found 1 remote heads on https://github.com/nazar0025/projCert.git
+[poll] Latest remote head revision on refs/heads/master is: 4ba4a17586493dab1d01bde9840804af99b9e8be
+Done. Took 1.6 sec
+Changes found

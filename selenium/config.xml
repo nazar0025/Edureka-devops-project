@@ -1,0 +1,110 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <assignedNode>VM2-slave</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <jenkins.triggers.ReverseBuildTrigger>
+      <spec></spec>
+      <upstreamProjects>ansible-docker</upstreamProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </jenkins.triggers.ReverseBuildTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>build_number=${BUILD_NUMBER}
+#MANUAL ENTRY    based on project website application
+#projecturl=&quot;http:\/\/3.15.172.244:9999\/website\/&quot;
+
+#creating playbook
+sudo touch /etc/ansible/playbook-selenium.yml
+sudo chmod 755 /etc/ansible/playbook-selenium.yml
+sudo tee /etc/ansible/playbook-selenium.yml  &gt; /dev/null &lt;&lt;&apos;EOF&apos;
+---
+- hosts: ansibleslave
+  become: true
+  become_user: root
+  tasks:
+  - name: Creates directory
+    file:
+      path: /home/user1/selenium-buildnumber
+      state: directory
+  - name: setting up gitrepo
+    shell: chdir=/home/user1/selenium-buildnumber git init
+  - name: Get the project from github
+    shell: chdir=/home/user1/selenium-buildnumber git pull https://github.com/nazar0025/Selenium-project.git master
+  #- name: passing url as input to the test xmll
+  #  shell: sudo sed &apos;s_givemeurl_projecturl/_g&apos; /home/user1/selenium-buildnumber/src/test/java/testNG/*.java
+  - name: create script
+    file: path=/home/user1/selenium-script.sh state=touch
+  - name: add content to dockerfile
+    blockinfile:
+           dest: /home/user1/selenium-script.sh
+           content: &quot;/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.265.b01-1.amzn2.0.1.x86_64/jre/bin/java org.testng.TestNG testng.xml&quot;
+  - name: execute shell file
+    shell: /home/user1/selenium-script.sh
+EOF
+
+sudo sed -i &quot;s/buildnumber/$build_number/g&quot; /etc/ansible/playbook-selenium.yml
+#sudo sed -i &quot;s/projecturl/$projecturl/g&quot; /etc/ansible/playbook-selenium.yml
+
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+    <org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder plugin="ansible@1.1">
+      <playbook>/etc/ansible/playbook-selenium.yml</playbook>
+      <limit></limit>
+      <tags></tags>
+      <skippedTags></skippedTags>
+      <startAtTask></startAtTask>
+      <credentialsId></credentialsId>
+      <vaultCredentialsId></vaultCredentialsId>
+      <become>false</become>
+      <becomeUser></becomeUser>
+      <sudo>false</sudo>
+      <sudoUser></sudoUser>
+      <forks>5</forks>
+      <unbufferedOutput>true</unbufferedOutput>
+      <colorizedOutput>false</colorizedOutput>
+      <disableHostKeyChecking>false</disableHostKeyChecking>
+      <additionalParameters></additionalParameters>
+      <copyCredentialsInWorkspace>false</copyCredentialsInWorkspace>
+    </org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder>
+  </builders>
+  <publishers>
+    <hudson.plugins.parameterizedtrigger.BuildTrigger plugin="parameterized-trigger@2.39">
+      <configs>
+        <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
+          <configs>
+            <hudson.plugins.parameterizedtrigger.BooleanParameters>
+              <configs>
+                <hudson.plugins.parameterizedtrigger.BooleanParameterConfig>
+                  <name>selenium</name>
+                  <value>true</value>
+                </hudson.plugins.parameterizedtrigger.BooleanParameterConfig>
+              </configs>
+            </hudson.plugins.parameterizedtrigger.BooleanParameters>
+          </configs>
+          <projects>dockercontainer-delete</projects>
+          <condition>UNSTABLE_OR_WORSE</condition>
+          <triggerWithNoParameters>false</triggerWithNoParameters>
+          <triggerFromChildProjects>false</triggerFromChildProjects>
+        </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
+      </configs>
+    </hudson.plugins.parameterizedtrigger.BuildTrigger>
+  </publishers>
+  <buildWrappers/>
+</project>

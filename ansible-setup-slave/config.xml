@@ -1,0 +1,93 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <assignedNode>VM2-slave</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <jenkins.triggers.ReverseBuildTrigger>
+      <spec></spec>
+      <upstreamProjects>Project-Job1</upstreamProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </jenkins.triggers.ReverseBuildTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#get from global env variable
+echo $masterip $masternode $slaveip $slavenode
+
+#making entry to ansible hosts file for the agent node(or nodes)
+sudo chmod 666 /etc/ansible/hosts
+sudo sed -i &apos;/ansibleslave\]/d&apos; /etc/ansible/hosts; sudo sed -i &quot;/$slaveip/d&quot; /etc/ansible/hosts
+sudo echo &quot;[ansibleslave]&quot; &gt;&gt; /etc/ansible/hosts; sudo echo $slaveip &gt;&gt; /etc/ansible/hosts</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#clear already existing docker and playbook since am running multiple test runs
+#sudo rm /etc/ansible/playbook-docker-uninstall.yml
+#creating playbook
+sudo touch /etc/ansible/playbook-docker-uninstall.yml
+sudo chmod 755 /etc/ansible/playbook-docker-uninstall.yml
+sudo tee /etc/ansible/playbook-docker-uninstall.yml  &gt; /dev/null &lt;&lt;&apos;EOF&apos;
+---
+- hosts: ansibleslave
+  become: true
+  become_user: root
+  tasks:
+  - name: Stop docker
+    service: name=docker state=stopped
+  - name: Uninstall docker
+    yum: name=docker state=absent
+  - name: Install docker
+    yum: name=docker state=present
+  - name: Start docker
+    service: name=docker state=started
+EOF
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+    <org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder plugin="ansible@1.1">
+      <playbook>/etc/ansible/playbook-docker-uninstall.yml</playbook>
+      <limit></limit>
+      <tags></tags>
+      <skippedTags></skippedTags>
+      <startAtTask></startAtTask>
+      <credentialsId></credentialsId>
+      <vaultCredentialsId></vaultCredentialsId>
+      <become>false</become>
+      <becomeUser></becomeUser>
+      <sudo>false</sudo>
+      <sudoUser></sudoUser>
+      <forks>5</forks>
+      <unbufferedOutput>true</unbufferedOutput>
+      <colorizedOutput>false</colorizedOutput>
+      <disableHostKeyChecking>false</disableHostKeyChecking>
+      <additionalParameters></additionalParameters>
+      <copyCredentialsInWorkspace>false</copyCredentialsInWorkspace>
+    </org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder>
+  </builders>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>ansible-docker</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
+  <buildWrappers/>
+</project>

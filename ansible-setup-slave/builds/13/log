@@ -1,0 +1,49 @@
+Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4HEZ0Aq0jSg2onm2e5kRb6KRqPv8sINltEUyWk+wJnL3AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9Q0MAEGIX4skAAAA=[0m11
+originally caused by:
+ Started by GitHub push by nazar0025
+Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4HEZ0Aq0jSg2onm2e5kRb6KRqPv8sINltEUyWk+wJnL3AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9Q0MAEGIX4skAAAA=[0m11
+originally caused by:
+ Started by GitHub push by nazar0025
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/ansible-setup-slave
+[ansible-setup-slave] $ /bin/sh -xe /tmp/jenkins1661089286204381358.sh
++ echo 172.31.38.161 ip-172-31-38-161.us-east-2.compute.internal 172.31.32.48 ip-172-31-32-48.us-east-2.compute.internal
+172.31.38.161 ip-172-31-38-161.us-east-2.compute.internal 172.31.32.48 ip-172-31-32-48.us-east-2.compute.internal
++ sudo chmod 666 /etc/ansible/hosts
++ sudo sed -i '/ansibleslave\]/d' /etc/ansible/hosts
++ sudo sed -i /172.31.32.48/d /etc/ansible/hosts
++ sudo echo '[ansibleslave]'
++ sudo echo 172.31.32.48
+[ansible-setup-slave] $ /bin/sh -xe /tmp/jenkins461108532230026263.sh
++ sudo touch /etc/ansible/playbook-docker-uninstall.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-uninstall.yml
++ sudo tee /etc/ansible/playbook-docker-uninstall.yml
+[ansible-setup-slave] $ ansible-playbook /etc/ansible/playbook-docker-uninstall.yml -f 5
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [Stop docker] *************************************************************
+changed: [172.31.32.48]
+
+TASK [Uninstall docker] ********************************************************
+changed: [172.31.32.48]
+
+TASK [Install docker] **********************************************************
+changed: [172.31.32.48]
+
+TASK [Start docker] ************************************************************
+changed: [172.31.32.48]
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Triggering a new build of [8mha:////4DE9MmZmPAy6oWzIkqaHkysvprp+KoaNkPYpr9pD3dFcAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3EvOLMpJxU3ZT85OzUIn0AYG+rAMkAAAA=[0mansible-docker
+Triggering a new build of [8mha:////4DE9MmZmPAy6oWzIkqaHkysvprp+KoaNkPYpr9pD3dFcAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3EvOLMpJxU3ZT85OzUIn0AYG+rAMkAAAA=[0mansible-docker
+Finished: SUCCESS

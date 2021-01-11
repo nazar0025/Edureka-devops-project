@@ -1,0 +1,62 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <assignedNode>VM2-slave</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>containername=$(sudo cat /home/user1/dockerbuild.txt)
+
+#creating playbook
+sudo touch /etc/ansible/playbook-docker-del.yml
+sudo chmod 755 /etc/ansible/playbook-docker-del.yml
+sudo tee /etc/ansible/playbook-docker-del.yml  &gt; /dev/null &lt;&lt;&apos;EOF&apos;
+---
+- hosts: ansibleslave
+  become: true
+  become_user: root
+  tasks:
+  - name: stop container
+    shell: sudo docker stop $(sudo docker ps -a|grep containername|awk {&apos;print $1&apos;})
+  - name: delete container
+    shell: sudo docker rm $(sudo docker ps -a|grep containername|awk {&apos;print $1&apos;})
+EOF
+
+
+sudo sed -i &quot;s/containername/$containername/g&quot; /etc/ansible/playbook-docker-del.yml
+
+echo &quot;container&quot; $containername &quot;is deleted&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+    <org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder plugin="ansible@1.1">
+      <playbook>/etc/ansible/playbook-docker-del.yml</playbook>
+      <limit></limit>
+      <tags></tags>
+      <skippedTags></skippedTags>
+      <startAtTask></startAtTask>
+      <credentialsId>931b185c-0b8c-4a92-bc31-885967f63ccb</credentialsId>
+      <vaultCredentialsId></vaultCredentialsId>
+      <become>false</become>
+      <becomeUser></becomeUser>
+      <sudo>false</sudo>
+      <sudoUser></sudoUser>
+      <forks>5</forks>
+      <unbufferedOutput>true</unbufferedOutput>
+      <colorizedOutput>false</colorizedOutput>
+      <disableHostKeyChecking>false</disableHostKeyChecking>
+      <additionalParameters></additionalParameters>
+      <copyCredentialsInWorkspace>false</copyCredentialsInWorkspace>
+    </org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

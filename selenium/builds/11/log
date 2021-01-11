@@ -1,0 +1,8 @@
+Started by user [8mha:////4Gm8z8svCaXKqFzr1Z5zntsQFmxEgC1XfjqScehTkFs8AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mnazar
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/selenium
+Installing JDK jdk-9.0.4-oth-JPR
+Downloading JDK from https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_linux-x64_bin.tar.gz
+[8mha:////4Is4z+RsNm2SLugsHoG5xxMIUOXgMej7ple9QAXmAsKuAAAAsh+LCAAAAAAAAP9djDEOgkAQRUeMHsDSeAa2syE0YiFKaDzBBiaIjrub2cFA5R28hjYewuN4BzFY+Zv/mvceb5h4hsWhKb01YWGNt4ThpnPIVJtTbgWX8f0Z39wrgCCFKaGp5JDBuGESmGVHfdGKtKnUXrg2VdQyzP9yyfDfGAwbBQCt6+EqEKkSfcG1E8urLtdnVD9frCUfbte71HjRRMgKjSAnjGUPtaYPq19LNcAAAAA=[0mOracle now requires Oracle account to download previous versions of JDK. Please specify your Oracle account username/password.
+ERROR: Unable to install JDK unless a valid Oracle account username/password is provided in the system configuration.
+Finished: FAILURE

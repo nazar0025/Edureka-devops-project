@@ -1,0 +1,50 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>ansible-setup-slave</upstreamProject>
+            <upstreamUrl>job/ansible-setup-slave/</upstreamUrl>
+            <upstreamBuild>8</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>Project-Job1</upstreamProject>
+                <upstreamUrl>job/Project-Job1/</upstreamUrl>
+                <upstreamBuild>6</upstreamBuild>
+                <upstreamCauses>
+                  <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.32.0">
+                    <pushedBy>nazar0025</pushedBy>
+                  </com.cloudbees.jenkins.GitHubPushCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>Project-Job1</upstreamProject>
+                <upstreamUrl>job/Project-Job1/</upstreamUrl>
+                <upstreamBuild>6</upstreamBuild>
+                <upstreamCauses/>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>2</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@2.3.14">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+  </actions>
+  <queueId>219</queueId>
+  <timestamp>1610112389109</timestamp>
+  <startTime>1610112389112</startTime>
+  <result>SUCCESS</result>
+  <duration>26791</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>VM2-slave</builtOn>
+  <workspace>/home/user1/workspace/ansible-docker</workspace>
+  <hudsonVersion>2.263.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

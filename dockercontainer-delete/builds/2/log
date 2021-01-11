@@ -1,0 +1,59 @@
+Started by upstream project "[8mha:////4OUQIrnaLSuNwXLM9/+JFKO7MWu4fgXTr7afsojjIwxeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3iVKDJmaW5+gD/e8qtwwAAAA==[0mselenium" build number [8mha:////4Jt7R9YXKjdKM6vGdOyqwgtXR9eppy2v+gz4DV8s57lYAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3iVKDJmaW5+kZGANcu7THFAAAA[0m22
+originally caused by:
+ Started by upstream project "[8mha:////4DE9MmZmPAy6oWzIkqaHkysvprp+KoaNkPYpr9pD3dFcAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3EvOLMpJxU3ZT85OzUIn0AYG+rAMkAAAA=[0mansible-docker" build number [8mha:////4EDi9va/lAnTdqd+C09CIfU+CsHY+WIPi5OPFBd/E1VNAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP3EvOLMpJxU3ZT85OzUIn0LAwDm4URaywAAAA==[0m80
+ originally caused by:
+  Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4H76EaRwqfEW3fa8khR0lCC73zgUhJxzD4i9sIpbP8AtAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfUMzAJQ8brHQAAAA[0m16
+  originally caused by:
+   Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4ERcZCjkte4xftQSUa/abBGTEL+IZ1jVM1d3qhiCa/I+AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9QxMAn5Z9kskAAAA=[0m14
+   originally caused by:
+    Started by GitHub push by nazar0025
+   Started by upstream project "[8mha:////4EIlR4X4YTUkIVrqHJ3LIdtLY5dz+rTe567bO/eYRYgEAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+gFF+VmpySW6XvlJhvoAZKGSIccAAAA=[0mProject-Job1" build number [8mha:////4ERcZCjkte4xftQSUa/abBGTEL+IZ1jVM1d3qhiCa/I+AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2Aovys1OQSXa/8JEN9QxMAn5Z9kskAAAA=[0m14
+  Started by upstream project "[8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave" build number [8mha:////4H76EaRwqfEW3fa8khR0lCC73zgUhJxzD4i9sIpbP8AtAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfUMzAJQ8brHQAAAA[0m16
+ Started by upstream project "[8mha:////4DE9MmZmPAy6oWzIkqaHkysvprp+KoaNkPYpr9pD3dFcAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3EvOLMpJxU3ZT85OzUIn0AYG+rAMkAAAA=[0mansible-docker" build number [8mha:////4EDi9va/lAnTdqd+C09CIfU+CsHY+WIPi5OPFBd/E1VNAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP3EvOLMpJxU3ZT85OzUIn0LAwDm4URaywAAAA==[0m80
+Running as SYSTEM
+Building remotely on [8mha:////4Gb5jqnYN5atl4H6TvVp5YbnrSRqULYVnZcIQhut4W5hAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/TBfI93inMSyVAA+LWVRyAAAAA==[0mVM2-slave (linux_vm2_slave) in workspace /home/user1/workspace/dockercontainer-delete
+[dockercontainer-delete] $ /bin/sh -xe /tmp/jenkins165545746267773999.sh
+++ sudo cat /home/user1/dockerbuild.txt
++ containername=project-80
++ sudo touch /etc/ansible/playbook-docker-del.yml
++ sudo chmod 755 /etc/ansible/playbook-docker-del.yml
++ sudo tee /etc/ansible/playbook-docker-del.yml
++ sudo sed -i s/containername/project-80/g /etc/ansible/playbook-docker.yml
++ echo container project-80 'is deleted'
+container project-80 is deleted
+[dockercontainer-delete] $ ansible-playbook /etc/ansible/playbook-docker-del.yml -f 5
+
+PLAY [ansibleslave] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[WARNING]: Platform linux on host 172.31.32.48 is using the discovered Python
+interpreter at /usr/bin/python, but future installation of another Python
+interpreter could change this. See https://docs.ansible.com/ansible/2.9/referen
+ce_appendices/interpreter_discovery.html for more information.
+ok: [172.31.32.48]
+
+TASK [stop container] **********************************************************
+[WARNING]: Consider using 'become', 'become_method', and 'become_user' rather
+than running sudo
+fatal: [172.31.32.48]: FAILED! => {"changed": true, "cmd": "sudo docker stop $(sudo docker ps -a|grep $containername|awk {'print $1'})", "delta": "0:00:00.164020", "end": "2021-01-10 16:09:51.689484", "msg": "non-zero return code", "rc": 1, "start": "2021-01-10 16:09:51.525464", "stderr": "Usage: grep [OPTION]... PATTERN [FILE]...\nTry 'grep --help' for more information.\n\"docker stop\" requires at least 1 argument.\nSee 'docker stop --help'.\n\nUsage:  docker stop [OPTIONS] CONTAINER [CONTAINER...]\n\nStop one or more running containers", "stderr_lines": ["Usage: grep [OPTION]... PATTERN [FILE]...", "Try 'grep --help' for more information.", "\"docker stop\" requires at least 1 argument.", "See 'docker stop --help'.", "", "Usage:  docker stop [OPTIONS] CONTAINER [CONTAINER...]", "", "Stop one or more running containers"], "stdout": "", "stdout_lines": []}
+
+PLAY RECAP *********************************************************************
+172.31.32.48               : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+FATAL: command execution failed
+hudson.AbortException: Ansible playbook execution failed
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:262)
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:232)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.Build$BuildExecution.build(Build.java:197)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:514)
+	at hudson.model.Run.execute(Run.java:1907)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ERROR: Ansible playbook execution failed
+Finished: FAILURE

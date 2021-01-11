@@ -1,0 +1,24 @@
+Started by GitHub push by nazar0025
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Project-Job1
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/nazar0025/projCert.git # timeout=10
+Fetching upstream changes from https://github.com/nazar0025/projCert.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.3'
+ > git fetch --tags --force --progress -- https://github.com/nazar0025/projCert.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d756ecdddf269fca8866b48cf1b3fad681863681 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d756ecdddf269fca8866b48cf1b3fad681863681 # timeout=10
+Commit message: "Update test1.txt"
+ > git rev-list --no-walk 69c7e8b0b09b744b0cd130c2bc88c408e5ff8c75 # timeout=10
+[Project-Job1] $ /bin/sh -xe /tmp/jenkins6971599987609542987.sh
++ echo 'from git'
+from git
+Triggering a new build of [8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave
+Triggering a new build of [8mha:////4NTfky+qBOt+/LMUhpwzhjid89vsbWF4SqD3DgzLCxm3AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3EvOLMpJxU3eLUktIC3eKcxLJUfQBItg/wzgAAAA==[0mansible-setup-slave
+Finished: SUCCESS

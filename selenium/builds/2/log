@@ -1,0 +1,8 @@
+Started by user [8mha:////4Gm8z8svCaXKqFzr1Z5zntsQFmxEgC1XfjqScehTkFs8AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mnazar
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/selenium
+[selenium] $ /bin/sh -xe /tmp/jenkins3767931906036475873.sh
++ rm -rf /home/user1/selenium-git/.git
+rm: cannot remove ‘/home/user1/selenium-git/.git’: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
